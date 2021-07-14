@@ -1,0 +1,44 @@
+@media all and (max-width : 750px){
+    header h1{
+        font-size: 36px;
+        max-width: 250px;
+    }
+}
+
+@media all and (max-width : 990px ){
+    nav ul .icons{background-color: #fff;}
+
+    nav .nav-btns{
+        background-color: #fff;
+        flex-direction: column;
+    }
+
+    nav ul li a{color: #000 !important;}
+
+
+    nav .container{
+        max-width: 100%;
+    }
+    #ourteam .que{justify-content: center; align-items: center;}
+    #ourteam .que h3{font-size: 20px;}
+    #ourteam .que a{ right:auto ;bottom: 0; margin: auto;padding: 7px 14px;}
+
+    #footer-end{
+        text-align: center;
+    }
+    #clients .carousel-item .caption p , #clients .carousel-item .caption h3{font-size: 20px;padding: 10px;}
+
+    #clients .caption span{font-size: 13px;}
+
+    #contact h3{
+        font-size: 24px;
+    line-height: 24px;
+    }
+
+}
+
+@media all and (min-width : 1400px){
+    .container{
+        max-width: 1200px;
+    }
+}
